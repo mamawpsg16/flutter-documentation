@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'handling_user_inputs/buttons.dart';
+import 'handling_user_inputs/form.dart';
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Handling User Inputs Page'),
         ),
-        body: MultipleTextFields(),  // Use ListView to allow scrolling
+        body: MyForm(),  // Use ListView to allow scrolling
       ),
     );
   }
