@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MyForm extends StatefulWidget {
+  const MyForm({super.key});
+
   @override
   _MyFormState createState() => _MyFormState();
 }
